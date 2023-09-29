@@ -1,0 +1,473 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.1">
+  <Nodes>
+    <Node ToolID="74">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="66" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="49" />
+          <Fields>
+            <Field name="Airport City" />
+            <Field name="Centroid" />
+            <Field name="REP" />
+            <Field name="TripOrder" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Hartford-West Hartford-East Hartford, CT Metro</c>
+              <c>{ "type": "Point", "coordinates": [ -72.577485, 41.735909 ] }</c>
+              <c>Cathy</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>Indianapolis-Carmel-Anderson, IN Metro</c>
+              <c>{ "type": "Point", "coordinates": [ -86.206137, 39.747431 ] }</c>
+              <c>Cathy</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>Springfield, MA Metro</c>
+              <c>{ "type": "Point", "coordinates": [ -72.646741, 42.230068 ] }</c>
+              <c>Cathy</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>Reno, NV Metro</c>
+              <c>{ "type": "Point", "coordinates": [ -119.660656, 40.638609 ] }</c>
+              <c>Cathy</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>Cleveland-Elyria, OH Metro</c>
+              <c>{ "type": "Point", "coordinates": [ -81.683882, 41.375258 ] }</c>
+              <c>Cathy</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>Knoxville, TN Metro</c>
+              <c>{ "type": "Point", "coordinates": [ -84.138485, 36.047549 ] }</c>
+              <c>Cathy</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c>Madison, WI Metro</c>
+              <c>{ "type": "Point", "coordinates": [ -89.591695, 43.078509 ] }</c>
+              <c>Cathy</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>Phoenix-Mesa-Scottsdale, AZ Metro</c>
+              <c>{ "type": "Point", "coordinates": [ -112.070554, 33.185508 ] }</c>
+              <c>Dan</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>Miami-Fort Lauderdale-West Palm Beach, FL Metro</c>
+              <c>{ "type": "Point", "coordinates": [ -80.497102, 26.129562 ] }</c>
+              <c>Dan</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>Lexington-Fayette, KY Metro</c>
+              <c>{ "type": "Point", "coordinates": [ -84.432749, 38.090933 ] }</c>
+              <c>Dan</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>Jackson, MS Metro</c>
+              <c>{ "type": "Point", "coordinates": [ -90.222604, 32.315710 ] }</c>
+              <c>Dan</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>Albuquerque, NM Metro</c>
+              <c>{ "type": "Point", "coordinates": [ -106.471533, 35.122281 ] }</c>
+              <c>Dan</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>Pittsburgh, PA Metro</c>
+              <c>{ "type": "Point", "coordinates": [ -79.830873, 40.439120 ] }</c>
+              <c>Dan</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c>Burlington-South Burlington, VT Metro</c>
+              <c>{ "type": "Point", "coordinates": [ -72.987392, 44.685176 ] }</c>
+              <c>Dan</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>Los Angeles-Long Beach-Anaheim, CA Metro</c>
+              <c>{ "type": "Point", "coordinates": [ -118.149366, 34.222183 ] }</c>
+              <c>Diana</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>Boise City, ID Metro</c>
+              <c>{ "type": "Point", "coordinates": [ -116.143190, 43.012347 ] }</c>
+              <c>Diana</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>Bangor, ME Metro</c>
+              <c>{ "type": "Point", "coordinates": [ -68.649614, 45.401569 ] }</c>
+              <c>Diana</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>Billings, MT Metro</c>
+              <c>{ "type": "Point", "coordinates": [ -108.718932, 45.780888 ] }</c>
+              <c>Diana</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>Durham-Chapel Hill, NC Metro</c>
+              <c>{ "type": "Point", "coordinates": [ -79.099669, 35.990862 ] }</c>
+              <c>Diana</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>Myrtle Beach-Conway-North Myrtle Beach, SC-NC Metro</c>
+              <c>{ "type": "Point", "coordinates": [ -78.687107, 33.975596 ] }</c>
+              <c>Diana</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c>Seattle-Tacoma-Bellevue, WA Metro</c>
+              <c>{ "type": "Point", "coordinates": [ -121.847665, 47.557175 ] }</c>
+              <c>Diana</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>Tuscaloosa, AL Metro</c>
+              <c>{ "type": "Point", "coordinates": [ -87.721321, 33.168895 ] }</c>
+              <c>James</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>Washington-Arlington-Alexandria, DC-VA-MD-WV Metro</c>
+              <c>{ "type": "Point", "coordinates": [ -77.479410, 38.835556 ] }</c>
+              <c>James</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>Topeka, KS Metro</c>
+              <c>{ "type": "Point", "coordinates": [ -95.803087, 39.043680 ] }</c>
+              <c>James</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>Minneapolis-St. Paul-Bloomington, MN-WI Metro</c>
+              <c>{ "type": "Point", "coordinates": [ -93.344795, 45.051728 ] }</c>
+              <c>James</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>Atlantic City-Hammonton, NJ Metro</c>
+              <c>{ "type": "Point", "coordinates": [ -74.677538, 39.481753 ] }</c>
+              <c>James</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>Eugene, OR Metro</c>
+              <c>{ "type": "Point", "coordinates": [ -122.846159, 43.938519 ] }</c>
+              <c>James</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c>Salt Lake City, UT Metro</c>
+              <c>{ "type": "Point", "coordinates": [ -113.041258, 40.447264 ] }</c>
+              <c>James</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>Fayetteville-Springdale-Rogers, AR-MO Metro</c>
+              <c>{ "type": "Point", "coordinates": [ -94.123458, 36.194649 ] }</c>
+              <c>Mark</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>Atlanta-Sandy Springs-Roswell, GA Metro</c>
+              <c>{ "type": "Point", "coordinates": [ -84.400798, 33.692203 ] }</c>
+              <c>Mark</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>New Orleans-Metairie, LA Metro</c>
+              <c>{ "type": "Point", "coordinates": [ -89.967842, 29.934402 ] }</c>
+              <c>Mark</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>Columbia, MO Metro</c>
+              <c>{ "type": "Point", "coordinates": [ -92.309235, 38.991761 ] }</c>
+              <c>Mark</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>Rochester, NY Metro</c>
+              <c>{ "type": "Point", "coordinates": [ -77.515170, 42.969919 ] }</c>
+              <c>Mark</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>Providence-Warwick, RI-MA Metro</c>
+              <c>{ "type": "Point", "coordinates": [ -71.401369, 41.719232 ] }</c>
+              <c>Mark</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c>Richmond, VA Metro</c>
+              <c>{ "type": "Point", "coordinates": [ -77.478352, 37.462083 ] }</c>
+              <c>Mark</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>Denver-Aurora-Lakewood, CO Metro</c>
+              <c>{ "type": "Point", "coordinates": [ -104.893931, 39.433975 ] }</c>
+              <c>Scott</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>Chicago-Naperville-Elgin, IL-IN-WI Metro</c>
+              <c>{ "type": "Point", "coordinates": [ -87.962153, 41.702848 ] }</c>
+              <c>Scott</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>Baltimore-Columbia-Towson, MD Metro</c>
+              <c>{ "type": "Point", "coordinates": [ -76.580825, 39.339686 ] }</c>
+              <c>Scott</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>Lincoln, NE Metro</c>
+              <c>{ "type": "Point", "coordinates": [ -96.870816, 40.819919 ] }</c>
+              <c>Scott</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>Fargo, ND-MN Metro</c>
+              <c>{ "type": "Point", "coordinates": [ -96.965552, 46.917820 ] }</c>
+              <c>Scott</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>Sioux Falls, SD Metro</c>
+              <c>{ "type": "Point", "coordinates": [ -96.990074, 43.499717 ] }</c>
+              <c>Scott</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c>Morgantown, WV Metro</c>
+              <c>{ "type": "Point", "coordinates": [ -79.804105, 39.527107 ] }</c>
+              <c>Scott</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>Dover, DE Metro</c>
+              <c>{ "type": "Point", "coordinates": [ -75.568385, 39.086100 ] }</c>
+              <c>Steve</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>Cedar Rapids, IA Metro</c>
+              <c>{ "type": "Point", "coordinates": [ -91.630879, 42.091532 ] }</c>
+              <c>Steve</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>Detroit-Warren-Dearborn, MI Metro</c>
+              <c>{ "type": "Point", "coordinates": [ -83.236738, 42.721871 ] }</c>
+              <c>Steve</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>Manchester-Nashua, NH Metro</c>
+              <c>{ "type": "Point", "coordinates": [ -71.716636, 42.915407 ] }</c>
+              <c>Steve</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>Oklahoma City, OK Metro</c>
+              <c>{ "type": "Point", "coordinates": [ -97.503812, 35.429885 ] }</c>
+              <c>Steve</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>Dallas-Fort Worth-Arlington, TX Metro</c>
+              <c>{ "type": "Point", "coordinates": [ -97.028989, 32.817835 ] }</c>
+              <c>Steve</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c>Cheyenne, WY Metro</c>
+              <c>{ "type": "Point", "coordinates": [ -104.689616, 41.307065 ] }</c>
+              <c>Steve</c>
+              <c>7</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="79">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.PolyBuild.PolyBuild">
+        <Position x="126" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SpatialObj field="Centroid" />
+          <GroupField field="REP" />
+          <BuildType>SequencePolyline</BuildType>
+          <SequenceField field="TripOrder" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxPolyBuild" />
+    </Node>
+    <Node ToolID="80">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.SpatialInfo.SpatialInfo">
+        <Position x="282" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SpatialObj field="SpatialObj_Built" />
+          <SelectedItems>
+            <Item name="LengthMi" />
+          </SelectedItems>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSpatialInfo" />
+    </Node>
+    <Node ToolID="81">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="426" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="LengthMi" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>LengthMi - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="82">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="534" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\xinyi\AppData\Local\Temp\Engine_6876_a39a12ae7157471ea8f6ce0485cad21e_\Engine_8976_40e5ceedb9a04c84ab8e8826f95ad1a8_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Map</DefaultTab>
+              <Hints>
+                <Map>
+                  <BaseMap>[No Base Map]</BaseMap>
+                </Map>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="74" Connection="Output" />
+      <Destination ToolID="79" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="79" Connection="Output" />
+      <Destination ToolID="80" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="80" Connection="Output" />
+      <Destination ToolID="81" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="81" Connection="Output" />
+      <Destination ToolID="82" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>challenge_6_start_file</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="1db524d4-3f2c-4fb2-aad6-13f9449a74bf" />
+      <Telemetry>
+        <PreviousWorkflowId value="" />
+        <OriginWorkflowId value="1db524d4-3f2c-4fb2-aad6-13f9449a74bf" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
