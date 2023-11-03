@@ -1,0 +1,648 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.1">
+  <Nodes>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="30" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="39" />
+          <Fields>
+            <Field name="Desc" />
+            <Field name="Type" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Bacon Burger</c>
+              <c>Burger</c>
+            </r>
+            <r>
+              <c>Barbecue Chicken - Large</c>
+              <c>Pizza</c>
+            </r>
+            <r>
+              <c>Barbecue Chicken - Medium</c>
+              <c>Pizza</c>
+            </r>
+            <r>
+              <c>Barbecue Chicken - Small</c>
+              <c>Pizza</c>
+            </r>
+            <r>
+              <c>Buffalo Chicken - Large</c>
+              <c>Pizza</c>
+            </r>
+            <r>
+              <c>Buffalo Chicken - Medium</c>
+              <c>Pizza</c>
+            </r>
+            <r>
+              <c>Buffalo Chicken - Small</c>
+              <c>Pizza</c>
+            </r>
+            <r>
+              <c>Caprese Salad</c>
+              <c>Salad</c>
+            </r>
+            <r>
+              <c>Cheese Bread</c>
+              <c>Side</c>
+            </r>
+            <r>
+              <c>Cheese Burger</c>
+              <c>Burger</c>
+            </r>
+            <r>
+              <c>Classic Quarter Pounder</c>
+              <c>Burger</c>
+            </r>
+            <r>
+              <c>Garden Fresh - Large</c>
+              <c>Salad</c>
+            </r>
+            <r>
+              <c>Garden Fresh - Medium</c>
+              <c>Salad</c>
+            </r>
+            <r>
+              <c>Garden Fresh - Small</c>
+              <c>Salad</c>
+            </r>
+            <r>
+              <c>House Made Potato Chips</c>
+              <c>Side</c>
+            </r>
+            <r>
+              <c>House Salad - Half</c>
+              <c>Salad</c>
+            </r>
+            <r>
+              <c>House Salad - Whole</c>
+              <c>Salad</c>
+            </r>
+            <r>
+              <c>Jalapeno Poppers</c>
+              <c>Side</c>
+            </r>
+            <r>
+              <c>Meat Grinder - Large</c>
+              <c>Pizza</c>
+            </r>
+            <r>
+              <c>Meat Grinder - Medium</c>
+              <c>Pizza</c>
+            </r>
+            <r>
+              <c>Meat Grinder - Small</c>
+              <c>Pizza</c>
+            </r>
+            <r>
+              <c>Mozzarella Sticks</c>
+              <c>Side</c>
+            </r>
+            <r>
+              <c>Mt. Hawaiian - Large</c>
+              <c>Pizza</c>
+            </r>
+            <r>
+              <c>Mt. Hawaiian - Medium</c>
+              <c>Pizza</c>
+            </r>
+            <r>
+              <c>Mt. Hawaiian - Small</c>
+              <c>Pizza</c>
+            </r>
+            <r>
+              <c>Onion Rings</c>
+              <c>Side</c>
+            </r>
+            <r>
+              <c>Soda - Large</c>
+              <c>Drink</c>
+            </r>
+            <r>
+              <c>Soda - Small</c>
+              <c>Drink</c>
+            </r>
+            <r>
+              <c>Soup of the Day - Bowl</c>
+              <c>Soup</c>
+            </r>
+            <r>
+              <c>Soup of the Day - Cup</c>
+              <c>Soup</c>
+            </r>
+            <r>
+              <c>Stromboli</c>
+              <c>Pizza</c>
+            </r>
+            <r>
+              <c>Supreme - Large</c>
+              <c>Pizza</c>
+            </r>
+            <r>
+              <c>Supreme - Medium</c>
+              <c>Pizza</c>
+            </r>
+            <r>
+              <c>Supreme - Small</c>
+              <c>Pizza</c>
+            </r>
+            <r>
+              <c>The Works  - Large</c>
+              <c>Pizza</c>
+            </r>
+            <r>
+              <c>The Works  - Medium</c>
+              <c>Pizza</c>
+            </r>
+            <r>
+              <c>The Works  - Small</c>
+              <c>Pizza</c>
+            </r>
+            <r>
+              <c>Waffle Fries</c>
+              <c>Side</c>
+            </r>
+            <r>
+              <c>Iced Tea</c>
+              <c>Drink</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="1">
+          <Name />
+          <AnnotationText>Lookup Table</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="30" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">Point of Sale.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Point of Sale.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="TicketID" size="254" source="Summarize: GroupBy - PartyID" type="V_String" />
+            <Field name="Date" size="254" source="Formula: replace([Date],&quot;2011&quot;,&quot;2013&quot;)" type="V_String" />
+            <Field name="MemberID" size="254" source="File: C:\Users\rsnow\Desktop\W drive\backup data\Documents\SRC Documents\Demo\Damian\Sales.csv" type="V_String" />
+            <Field name="Desc" size="254" source="File: C:\Users\rsnow\Desktop\W drive\backup data\Documents\SRC Documents\Demo\Damian\Sales.csv" type="V_String" />
+            <Field name="Price" size="254" source="File: C:\Users\rsnow\Desktop\W drive\backup data\Documents\SRC Documents\Demo\Damian\Sales.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="378" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Desc" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Desc" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Right_Desc" selected="True" rename="Right_Desc" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="390" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="TicketID" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>TicketID - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+        <Position x="474" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupFields>
+            <Field field="TicketID" />
+          </GroupFields>
+          <HeaderField field="Title" />
+          <DataField field="Type" />
+          <Methods>
+            <Method method="Concat" />
+            <Separator>,</Separator>
+            <FieldSize value="2048" />
+          </Methods>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="TicketID" size="254" source="CrossTab:Group:Concat:" type="V_String" />
+            <Field name="Title" size="2048" source="CrossTab:Header:Title:Title:Concat:" type="V_String" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="TicketID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+    </Node>
+    <Node ToolID="49">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="474" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="Title" type="String" size="64" expression="&quot;Title&quot;" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Create title</AnnotationText>
+          <DefaultAnnotationText>Title="Title"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="558" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression><![CDATA[Contains([Title],"Drink") and
+Contains([Title],"Side") and
+
+(Contains([Title],"Pizza") or
+Contains([Title],"Burger"))
+]]></Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Filter Deal
+Qualifiers</AnnotationText>
+          <DefaultAnnotationText>Contains([Title],"Drink") and
+Contains([Title],"Side") and
+
+(...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="52">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="222" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>Contains([Type],"Drink") or
+Contains([Type],"Side") or
+
+Contains([Type],"Pizza") or
+Contains([Type],"Burger")</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Filter relevent types</AnnotationText>
+          <DefaultAnnotationText>Contains([Type],"Drink") or
+Contains([Type],"Side") or
+
+Conta...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="70">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="642" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="TicketID" action="Count" rename="Potential Meal Deals" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="71">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="666" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="TicketID" action="CountDistinct" rename="Total" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Count Total
+Tickets</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="74">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+        <Position x="750" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <CartesianMode>Error</CartesianMode>
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+    </Node>
+    <Node ToolID="76">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="822" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[Potential Meal Deals]/[Total]*100" field="%" size="8" type="Double" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Create %</AnnotationText>
+          <DefaultAnnotationText><![CDATA[% = [Potential Meal Deals]/[Total]*100
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="77">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="906" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\CHRIS~1.MCE\AppData\Local\Temp\Engine_4824_e14ba4a8d0554383b0680c011d7a2610_\Engine_3260_976b5f7378174510870105e35af66347_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="128" y="32" width="214" height="135" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Convert and Filter Dates</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="10" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="41">
+          <GuiSettings>
+            <Position x="222" y="66" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="select.date.field">DateTime_Out</Value>
+              <Value name="start.end.date">False</Value>
+              <Value name="start-end.start">2013-06-01</Value>
+              <Value name="start-end.end">2017-02-07</Value>
+              <Value name="start.periods">True</Value>
+              <Value name="start-periods.start">2013-07-01</Value>
+              <Value name="start-periods.type">Years</Value>
+              <Value name="start-periods.periods">1000</Value>
+              <Value name="end.periods">False</Value>
+              <Value name="end-periods.end">2017-02-07</Value>
+              <Value name="end-periods.type">Days</Value>
+              <Value name="end-periods.periods">1</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Filter
+Dates</AnnotationText>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Date_Filter.yxmc" />
+        </Node>
+        <Node ToolID="42">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+            <Position x="138" y="66" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <IsFrom value="False" />
+              <InputFieldName>Date</InputFieldName>
+              <Format>yyyy-MM-dd</Format>
+              <OutputFieldName>DateTime_Out</OutputFieldName>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Convert 
+Date</AnnotationText>
+              <DefaultAnnotationText>Convert Date From:
+yyyy-MM-dd</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="52" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Join" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Output" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="47" Connection="Output" />
+      <Destination ToolID="50" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="Output" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="True" />
+      <Destination ToolID="70" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="52" Connection="True" />
+      <Destination ToolID="35" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="41" Connection="Output" />
+      <Destination ToolID="35" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="70" Connection="Output" />
+      <Destination ToolID="74" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="71" Connection="Output" />
+      <Destination ToolID="74" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="74" Connection="Output" />
+      <Destination ToolID="76" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="76" Connection="Output" />
+      <Destination ToolID="77" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="41" Connection="Output" />
+      <Destination ToolID="71" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>challenge_8_solution</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="1f15ea8d-512b-45b7-be33-91ecb052d042" />
+      <Telemetry>
+        <PreviousWorkflowId value="" />
+        <OriginWorkflowId value="1f15ea8d-512b-45b7-be33-91ecb052d042" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
