@@ -1,0 +1,361 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.1">
+  <Nodes>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="46" />
+          <Fields>
+            <Field name="Registrant ID" />
+            <Field name="TIMESTAMP" />
+            <Field name="Time_Now" />
+          </Fields>
+          <Data>
+            <r>
+              <c>HPNZGSDMQMX</c>
+              <c>2014-07-09 11:07:47</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>F5NZRZ3YVRD</c>
+              <c>2014-07-09 08:40:07</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>FHNBTNMV3MP</c>
+              <c>2014-07-08 12:26:56</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>ZHN7W97Z955</c>
+              <c>2014-07-08 13:26:38</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>ZKNWRVBTXZ2</c>
+              <c>2014-07-08 13:25:42</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>HGNYD3V77CQ</c>
+              <c>2014-07-07 19:13:24</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>HJN6JRBWR3Z</c>
+              <c>2014-07-08 11:39:52</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>KNNHPH2YTPX</c>
+              <c>2014-07-07 14:35:10</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>JPNX3YQ5GV3</c>
+              <c>2014-07-08 10:35:18</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>ZFN8QQ3RSP7</c>
+              <c>2014-07-07 20:00:46</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>ZFN8QQ3RSP7</c>
+              <c>2014-07-09 13:31:24</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>GTNVDYQPLXT</c>
+              <c>2014-07-08 13:26:46</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>ZPNZYQRYRP9</c>
+              <c>2014-07-07 14:13:24</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>N5N8T5CKSXY</c>
+              <c>2014-07-07 17:06:37</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>HNNDMTZHK7R</c>
+              <c>2014-07-08 13:01:44</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>ZDNF7FBYH54</c>
+              <c>2014-07-08 08:41:20</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>N9NJ275XPMZ</c>
+              <c>2014-07-09 11:21:16</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>KMNC8ML97ZK</c>
+              <c>2014-07-07 17:10:34</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>KMNC8ML97ZK</c>
+              <c>2014-07-07 17:42:25</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>JYNLNB87C73</c>
+              <c>2014-07-07 14:55:58</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>N4N4QCSJWQX</c>
+              <c>2014-07-07 15:48:03</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>P8N4TSH8SL3</c>
+              <c>2014-07-08 16:37:45</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>LHNKDQDD8G3</c>
+              <c>2014-07-07 20:01:11</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>LHNKDQDD8G3</c>
+              <c>2014-07-09 13:31:40</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>PJNT3NKM6F4</c>
+              <c>2014-07-07 19:45:35</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>G9NNGTMNLPJ</c>
+              <c>2014-07-08 08:44:18</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>G9NNGTMNLPJ</c>
+              <c>2014-07-08 16:54:40</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>F2NCWKFQ5FS</c>
+              <c>2014-07-09 11:12:11</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>MDNSZPY6MLY</c>
+              <c>2014-07-08 16:17:20</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>K7NW774HZMJ</c>
+              <c>2014-07-07 14:15:57</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>K7NW774HZMJ</c>
+              <c>2014-07-07 19:13:16</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>N6ND7Z47PGT</c>
+              <c>2014-07-08 11:40:25</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>N6ND7Z47PGT</c>
+              <c>2014-07-08 12:26:32</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>N6ND7Z47PGT</c>
+              <c>2014-07-08 12:26:46</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>Z2NJRFDVDN6</c>
+              <c>2014-07-08 10:35:28</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>VWN6ZZ99L3Q</c>
+              <c>2014-07-08 14:47:01</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>GMN8T99TPMR</c>
+              <c>2014-07-07 18:20:02</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>NTNS4MJ672W</c>
+              <c>2014-07-07 18:06:19</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>V7NLG9GJ2B9</c>
+              <c>2014-07-09 12:52:35</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>LGNFMNWML96</c>
+              <c>2014-07-09 11:37:13</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>NMNP8S4HMDC</c>
+              <c>2014-07-08 14:34:21</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>J6NT6YM6BYF</c>
+              <c>2014-07-09 13:08:53</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>VBNHT8DPRD5</c>
+              <c>2014-07-08 15:11:35</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>onsite095</c>
+              <c>2014-07-09 12:54:48</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>HVN9P6WBWPD</c>
+              <c>2014-07-07 17:38:41</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>KMNW7B2ZXV4</c>
+              <c>2014-07-08 13:13:04</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="48">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="150" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="Days" type="Double" size="8" expression="DateTimeDiff( [Time_Now],[TIMESTAMP],&quot;days&quot;)" />
+            <FormulaField field="Hours" type="Double" size="8" expression="mod(DateTimeDiff( [Time_Now],[TIMESTAMP],&quot;hours&quot;),24)" />
+            <FormulaField field="Minutes" type="Double" size="8" expression="mod(DateTimeDiff( [Time_Now],[TIMESTAMP],&quot;minutes&quot;),60)" />
+            <FormulaField field="Seconds" type="Double" size="8" expression="mod(DateTimeDiff( [Time_Now],[TIMESTAMP],&quot;seconds&quot;),60)" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Create modulo differences</AnnotationText>
+          <DefaultAnnotationText>Days=DateTimeDiff( [Time_Now],[TIMESTAMP],"days")
+Hours=mod(DateTimeDiff( [Time_Now],[TIMESTAMP],"hours"),24)
+Minutes=mod(DateTimeDiff( [Time_Now],[TIMESTAMP],"minutes"),60)
+...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="49">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="270" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\CHRIS~1.MCE\AppData\Local\Temp\Engine_10908_6d9df07b98dc45f9850861fc0a0293aa_\Engine_1852_0183c350a05043dcaa4f8e58aced505e_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="48" Connection="Output" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Date_Time_Calculations</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="f44042b8-df8b-4a7b-b6ab-2fd6044bce24" />
+      <Telemetry>
+        <PreviousWorkflowId value="" />
+        <OriginWorkflowId value="f44042b8-df8b-4a7b-b6ab-2fd6044bce24" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
